@@ -40,14 +40,14 @@ https://templatemo.com/tm-600-prism-flux
     tech: ["JavaScript", "HTML", "CSS"],
     link: "https://yourname.github.io/portfolio"
   },
-  {
-    id: 4,
-    title: "Data Visualization Dashboard",
-    description: "Interactive charts and analytics using React + Recharts",
-    image: "assets/projects/dashboard.jpg",
-    tech: ["React", "Recharts", "API"],
-    link: "https://github.com/yourname/dashboard"
-  }
+//   {
+//     id: 4,
+//     title: "Data Visualization Dashboard",
+//     description: "Interactive charts and analytics using React + Recharts",
+//     image: "assets/projects/dashboard.jpg",
+//     tech: ["React", "Recharts", "API"],
+//     link: "https://github.com/yourname/dashboard"
+//   }
 ];
 
         // Skills data
@@ -65,6 +65,7 @@ https://templatemo.com/tm-600-prism-flux
             { name: 'Git & Github', icon: '🔧', level: 60, category: 'cloud' },
             { name: 'Docker', icon: '🐳', level: 45, category: 'cloud' },
             { name: 'Linux', icon: '🐧', level: 75, category: 'cloud' },
+            { name: 'Render', icon: '🐧', level: 75, category: 'cloud' },
         ];
 
         // Scroll to section function
