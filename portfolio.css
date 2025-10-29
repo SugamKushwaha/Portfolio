@@ -14,10 +14,6 @@ https://templatemo.com/tm-600-prism-flux
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-  overflow-x: hidden;
-}
-
 
 
 :root {
@@ -366,15 +362,7 @@ body::after {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media (max-width: 600px) {
-  .hero, .project, .philosophy-section, .stats-section {
-    padding: 80px 15px; /* smaller padding */
-  }
 
-  .nav-container, .hero-content {
-    padding-inline: 15px;
-  }
-}
 
 /* Hero Section - Horizontal Layout */
 .hero {
@@ -475,7 +463,7 @@ body::after {
 
   .hero-subtitle {
     font-size: clamp(14px, 3.5vw, 13px); /* Scales with screen */
-    max-width: 25%;
+    max-width: 30%;
     margin: 0 auto 10px;
     line-height: 1.5;
     text-align: center;
@@ -490,7 +478,7 @@ body::after {
   }
 
   .hero-subtitle {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.4;
   }
 }
