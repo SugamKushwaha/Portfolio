@@ -578,7 +578,7 @@ body::after {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 180px) {
   .marquee span {
     font-size: clamp(0.7rem, 3vw, 0.9rem); /* smaller, readable text */
   }
