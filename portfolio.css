@@ -14,6 +14,19 @@ https://templatemo.com/tm-600-prism-flux
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 600px) {
+  .hero, .project, .philosophy-section, .stats-section {
+    padding: 80px 15px; /* smaller padding */
+  }
+
+  .nav-container, .hero-content {
+    padding-inline: 15px;
+  }
+}
+
 
 :root {
 	--primary-black: #0a0a0a;
@@ -360,75 +373,7 @@ body::after {
 .menu-toggle.active span:nth-child(3) {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
-/* ===========================================
-   ✅ RESPONSIVE NAVBAR (MOBILE + TABLET)
-=========================================== */
-@media (max-width: 992px) {
-  .nav-container {
-    padding: 15px 20px;
-  }
 
-  /* Show hamburger */
-  .menu-toggle {
-    display: flex;
-    z-index: 1100;
-  }
-
-  /* Hide nav menu by default */
-  .nav-menu {
-    position: fixed;
-    top: 70px;
-    right: -100%;
-    width: 100%;
-    height: calc(100vh - 70px);
-    background: rgba(18, 18, 18, 0.98);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    transition: right 0.4s ease, opacity 0.3s ease;
-    opacity: 0;
-    backdrop-filter: blur(20px);
-  }
-
-  /* Show when active */
-  .nav-menu.active {
-    right: 0;
-    opacity: 1;
-  }
-
-  /* Links bigger and centered */
-  .nav-menu a {
-    font-size: 18px;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    color: var(--text-primary);
-  }
-
-  .nav-menu a::before {
-    display: none;
-  }
-
-  .logo-text {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .logo-icon {
-    width: 35px;
-    height: 35px;
-  }
-
-  .logo-text {
-    font-size: 18px;
-  }
-
-  .nav-menu a {
-    font-size: 16px;
-  }
-}
 
 
 /* Hero Section - Horizontal Layout */
@@ -653,7 +598,7 @@ body::after {
   }
 
   .marquee {
-    animation-duration: 28s; /* ✅ even slower scroll for tiny screens */
+    animation-duration: 18s; /* ✅ even slower scroll for tiny screens */
   }
 }
 
