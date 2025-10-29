@@ -461,7 +461,7 @@ body::after {
 
   .hero-subtitle {
     font-size: clamp(14px, 3.5vw, 13px); /* Scales with screen */
-    max-width: 25%;
+    max-width: 35%;
     margin: 0 auto 10px;
     line-height: 1.5;
     text-align: center;
@@ -536,7 +536,7 @@ body::after {
 /* Running Text (Marquee) */
 .hero-running-text {
   margin-top: 40px;
-  width: 30%;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -544,7 +544,7 @@ body::after {
   display: inline-block;
   white-space: nowrap;
   animation: marquee 18s linear infinite;
-  width: 30%;
+  width: 100%;
   overflow: hidden;
   text-align: center;
 }
