@@ -17,15 +17,7 @@ https://templatemo.com/tm-600-prism-flux
 body {
   overflow-x: hidden;
 }
-@media (max-width: 600px) {
-  .hero, .project, .philosophy-section, .stats-section {
-    padding: 80px 15px; /* smaller padding */
-  }
 
-  .nav-container, .hero-content {
-    padding-inline: 15px;
-  }
-}
 
 
 :root {
@@ -374,7 +366,15 @@ body::after {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
 
+@media (max-width: 600px) {
+  .hero, .project, .philosophy-section, .stats-section {
+    padding: 80px 15px; /* smaller padding */
+  }
 
+  .nav-container, .hero-content {
+    padding-inline: 15px;
+  }
+}
 
 /* Hero Section - Horizontal Layout */
 .hero {
