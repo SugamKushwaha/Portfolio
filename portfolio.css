@@ -572,7 +572,7 @@ body::after {
 }
 
 /* 📱 Responsive tweaks */
-@media (max-width: 308px) {
+@media (max-width: 208px) {
   .marquee {
     animation-duration: 24s; /* ✅ slower scroll for smaller screens */
   }
