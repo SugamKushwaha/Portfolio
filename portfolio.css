@@ -540,8 +540,55 @@ body::after {
   overflow: hidden;
   position: relative;
 }
-
 .marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 18s linear infinite;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Text inside marquee */
+.marquee span {
+  display: inline-block;
+  font-size: clamp(0.8rem, 2.5vw, 1.1rem); /* ✅ scales with screen size */
+  color: var(--accent-cyan);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.9;
+  padding-inline: 1rem;
+}
+
+/* Keyframes for scrolling effect */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* 📱 Responsive tweaks */
+@media (max-width: 768px) {
+  .marquee {
+    animation-duration: 24s; /* ✅ slower scroll for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee span {
+    font-size: clamp(0.7rem, 3vw, 0.9rem); /* smaller, readable text */
+  }
+
+  .marquee {
+    animation-duration: 28s; /* ✅ even slower scroll for tiny screens */
+  }
+}
+
+/* .marquee {
   display: inline-block;
   white-space: nowrap;
   animation: marquee 18s linear infinite;
@@ -565,7 +612,7 @@ body::after {
   100% {
     transform: translateX(-100%);
   }
-}
+} */
 
 /* Optional glow effect */
 .marquee span:hover {
