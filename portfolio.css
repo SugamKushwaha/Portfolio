@@ -461,7 +461,7 @@ body::after {
 
   .hero-subtitle {
     font-size: clamp(14px, 3.5vw, 13px); /* Scales with screen */
-    max-width: 30%;
+    max-width: 25%;
     margin: 0 auto 10px;
     line-height: 1.5;
     text-align: center;
@@ -572,13 +572,13 @@ body::after {
 }
 
 /* 📱 Responsive tweaks */
-@media (max-width: 768px) {
+@media (max-width: 308px) {
   .marquee {
     animation-duration: 24s; /* ✅ slower scroll for smaller screens */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   .marquee span {
     font-size: clamp(0.7rem, 3vw, 0.9rem); /* smaller, readable text */
   }
@@ -605,14 +605,14 @@ body::after {
 }
 
 /* Animation Keyframes */
-@keyframes marquee {
+/* @keyframes marquee {
   0% {
     transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
   }
-} */
+}  */
 
 /* Optional glow effect */
 .marquee span:hover {
