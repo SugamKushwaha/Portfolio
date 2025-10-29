@@ -536,7 +536,7 @@ body::after {
 /* Running Text (Marquee) */
 .hero-running-text {
   margin-top: 40px;
-  width: 100%;
+  width: 30%;
   overflow: hidden;
   position: relative;
 }
@@ -544,7 +544,7 @@ body::after {
   display: inline-block;
   white-space: nowrap;
   animation: marquee 18s linear infinite;
-  width: 100%;
+  width: 30%;
   overflow: hidden;
   text-align: center;
 }
