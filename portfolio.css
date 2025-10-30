@@ -518,13 +518,13 @@ body::after {
   color: var(--accent-cyan);
 }
 
-/* .hero-subtitle {
+.hero-subtitle {
   font-size: 20px;
   color: var(--text-secondary);
   margin-top: 40px;
   max-width: 700px;
   
-} */
+}
 
 /* 📱 Mobile Responsive Adjustments */
 @media (max-width: 500px) {
@@ -640,7 +640,7 @@ body::after {
 .marquee {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 18s linear infinite;
+  animation: marquee 8s linear infinite;
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -751,7 +751,7 @@ body::after {
 .carousel-item {
 	position: absolute;
 	width: 400px;
-	height: 500px;
+	height: 550px;
 	left: 50%;
 	top: 50%;
 	transform-style: preserve-3d;
