@@ -16,29 +16,31 @@ https://templatemo.com/tm-600-prism-flux
 
 
        const portfolioData = [
-  {
+
+        {
     id: 1,
-    title: "Langauge Conversion AI Model",
-    description: "A conversational AI built using OpenAI GPT and Node.js",
-    image: "images/Ai_Model.png",
-    tech: ["OpenAI", "Node.js", "JavaScript"],
-    link: "https://github.com/yourname/ai-chatbot"
+    title: "E-Commerce Platform",
+    description: "Built a Spring Boot eCommerce application with Spring Security for role-based authentication and a responsive frontend using HTML, CSS, and JavaScript.",
+    image: "images/productadd.png",
+    tech: ["Spring Boot","Spring Security", "HTML","CSS","JavaScript", "MySQL"],
+    // link: "https://yourprojectdemo.com"
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce web app with payment gateway",
-    image: "images/productadd.png",
-    tech: ["Spring Boot","Spring Security", "HTML","CSS", "MySQL"],
-    link: "https://yourprojectdemo.com"
+    title: "Langauge Conversion AI Model",
+    description: "Built a voice Recognition and Conversion project in Python leveraging the Vosk speech-to-text model to transcribe audio into text efficiently, without requiring an internet connection.",
+    image: "images/Ai_Model.png",
+    tech: ["Python","Vosk-Model"],
+    // link: "https://github.com/yourname/ai-chatbot"
   },
+ 
   {
     id: 3,
     title: "Portfolio Website",
-    description: "Responsive animated portfolio built with Three.js",
+    description: "Developed a dynamic portfolio website using HTML, CSS, and JavaScript featuring interactive animations, responsive layouts, and modern design principles to highlight professional projects and achievements.",
     image: "images/profile.png",
     tech: ["JavaScript", "HTML", "CSS"],
-    link: "https://yourname.github.io/portfolio"
+    // link: "https://yourname.github.io/portfolio"
   },
 //   {
 //     id: 4,
@@ -61,11 +63,11 @@ https://templatemo.com/tm-600-prism-flux
             { name: 'Thymeleaf', icon: '🍃 ', level: 90, category: 'backend' },
             { name: 'MySQL', icon: '🧠', level: 87, category: 'backend' },
             { name: 'AWS', icon: '☁️', level: 35, category: 'cloud' },
-            { name: 'Jenkins', icon: '🧑‍💼', level: 70, category: 'cloud' },
+            { name: 'Jenkins', icon: '🧑‍💼', level: 55, category: 'cloud' },
             { name: 'Git & Github', icon: '🔧', level: 60, category: 'cloud' },
             { name: 'Docker', icon: '🐳', level: 45, category: 'cloud' },
             { name: 'Linux', icon: '🐧', level: 75, category: 'cloud' },
-            { name: 'Render', icon: '🐧', level: 75, category: 'cloud' },
+            { name: 'Render', icon: '🌍', level: 35, category: 'cloud' },
         ];
 
         // Scroll to section function
