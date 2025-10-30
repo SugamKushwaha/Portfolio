@@ -20,7 +20,7 @@ https://templatemo.com/tm-600-prism-flux
     id: 1,
     title: "Langauge Conversion AI Model",
     description: "A conversational AI built using OpenAI GPT and Node.js",
-    image: "assets/projects/chatbot.jpg",
+    image: "images/Ai_Model.png",
     tech: ["OpenAI", "Node.js", "JavaScript"],
     link: "https://github.com/yourname/ai-chatbot"
   },
