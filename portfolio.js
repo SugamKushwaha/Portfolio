@@ -40,7 +40,7 @@ https://templatemo.com/tm-600-prism-flux
     description: "Developed a dynamic portfolio website using HTML, CSS, and JavaScript featuring interactive animations, responsive layouts, and modern design principles to highlight professional projects and achievements.",
     image: "images/profile.png",
     tech: ["JavaScript", "HTML", "CSS"],
-    // link: "https://yourname.github.io/portfolio"
+    link: "https://portfolio-ikk0.onrender.com/"
   },
 //   {
 //     id: 4,
