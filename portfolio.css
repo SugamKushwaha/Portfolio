@@ -594,13 +594,12 @@ body::after {
 
 .hero-image img {
   width: 100%;
-  height: 380px;
-  max-width: 550px;
+  max-width: 470px;
+  height: 340px;
   border-radius: 20px;
   margin-left: 170px;
   border: 2px solid var(--accent-purple);
-  outline: 2px solid var(--accent-purple);
-  outline-offset: 10px;
+  
   box-shadow: 0 10px 40px rgba(153, 69, 255, 0.3);
   transition: all 0.4s ease;
   
