@@ -596,7 +596,7 @@ body::after {
   width: 100%;
   max-width: 490px;
   /* add below two lines*/
-  height: 330px;
+  height: 350px;
   margin-left: 170px;
   border-radius: 20px;
   
@@ -627,8 +627,8 @@ body::after {
     max-width: 350px;
 	/* add below two lines*/
 	margin-left: 0px;
-	height: 290px;
-	border: 2px solid var(--accent-purple);
+	height: 260px;
+	/* border: 2px solid var(--accent-purple); */
   }
 }
 
