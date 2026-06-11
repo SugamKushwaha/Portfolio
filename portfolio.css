@@ -594,10 +594,10 @@ body::after {
 
 .hero-image img {
   width: 100%;
-  max-width: 470px;
-  height: 340px;
+  max-width: 490px;
+  height: 350px;
   border-radius: 20px;
-  margin-left: 170px;
+  
   border: 2px solid var(--accent-purple);
   
   box-shadow: 0 10px 40px rgba(153, 69, 255, 0.3);
