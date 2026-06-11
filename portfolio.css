@@ -594,17 +594,27 @@ body::after {
 
 .hero-image img {
   width: 100%;
-  max-width: 450px;
-  border-radius: 30px;
+  height: 380px;
+  max-width: 550px;
+  border-radius: 20px;
+  margin-left: 170px;
   border: 2px solid var(--accent-purple);
+  outline: 2px solid var(--accent-purple);
+  outline-offset: 10px;
   box-shadow: 0 10px 40px rgba(153, 69, 255, 0.3);
   transition: all 0.4s ease;
+  
+  
+  
 }
 
 .hero-image img:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 50px rgba(153, 69, 255, 0.5);
 }
+
+
+
 
 /* Make responsive for small screens */
 @media (max-width: 900px) {
