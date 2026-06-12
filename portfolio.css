@@ -564,7 +564,9 @@ body::after {
   }
 }
 
-
+.resume{
+	margin-bottom: 40px;
+}
 
 .hero-btn {
   margin-top: 40px;
